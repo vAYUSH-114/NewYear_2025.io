@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    
+    /* text-align: center; */
+    /* padding: 20px; */
+    background-color: #122980;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 100vw;
+    height: 5cm;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+    border: 5px solid;
+    border-radius: 10px;
+
+    /* margin-left: 3cm; */
+    /* margin-right: 5cm; */
+    
+    gap: 1rem;
+}
+.container h1{
+    font-size: 2.5rem;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0); */
+
+}
+
+#countdown{
+    font-size: 2rem;
+    /* margin-top: 20px; */
+    /* text-decoratio; */
+}
+.typ{
+    font-family: 'Courier New', monospace;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3cm;
+    margin-top:1rem ;
+    background-color: #121212;
+    color: #fff;
+    opacity: 80%;
+    font-size: 24px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    /* overflow:auto; */
+    border-right: 3px solid transparent;
+    border-radius: 4px;
+    /* text-wrap:inherit; */
+    padding-left: 1rem;
+    
+
+}
+.cursor{
+    font-weight: bold;
+    margin-left: 2px;
+    display: inline-block;
+    animation: blink 0.5s step-start infinite;
+    
+}
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}
+h2{
+    width: 154px;
+    height: 1cm;
+    border: none;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: "Agu Display", serif;
+    /* font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0; */
+    margin-top: 0.5rem;
+    background-color: red;
+    /* z-index: 1; */
+    opacity: 80%;
+    border-radius: 5px;
+    font-size: 0.8cm;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+#countdown{
+    /* font-family: "Festive", serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+
