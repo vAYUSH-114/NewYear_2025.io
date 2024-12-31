@@ -110,6 +110,24 @@ h2{
     font-weight: weight;
     font-style: normal;
 }
+@media (max-width:827px) {
+    .typ{
+        background-color: #2c0909;
+        height: fit-content;
+        padding: 10px 10px;
+    }
+    .container{
+        margin-top: 40px;
+
+    }  
+}
+@media (max-width:560px){
+    .container{
+        height:fit-content;
+        overflow-wrap: auto;
+    }
+
+}
 
 
 
